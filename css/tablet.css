@@ -1,0 +1,620 @@
+@media (max-width: 758px) {
+    body {
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        align-items: center;
+        text-align: center;
+        /*letter-spacing: 0.16em;*/
+    }
+
+    #close{
+        display: none;
+    }
+    
+    .header {
+        width: 100%;
+        height: 58vh;
+        background: url("../img/header.JPG") no-repeat cover;
+        background-size: 100% auto;
+        margin: 0px;
+        margin-top: 50px; /* добавил сверху 50px для компенсации смещения из-за рекламы на бесплатном хостинге*/
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+      
+.logo {
+    width: 250px;
+    height: 210px;
+    margin-top: 0px;
+    margin-right: 0px;
+    background: url("../img/logo.png");
+    background-size: cover;
+}
+
+.header .zagolovok{
+    position: absolute;
+    width: 330px;
+    /*height: 50px;*/
+    top: 180px; /* добавил сверху 150px для компенсации смещения из-за рекламы на бесплатном хостинге*/
+    right: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 45px;
+    padding: 0px;
+    align-items: center;
+
+}
+
+.zagolovok h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -5px;
+    padding: 0px;
+    padding-top: 0px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.header .button1{
+    width: 200px;
+    position: absolute;
+    right: 170px;
+    margin-top: -20px;
+}
+
+.header .button1 img{
+    size: cover;
+    scale: 0.5;
+}
+
+.header .learn39{
+    width: 330px;
+    position: absolute;
+    bottom: 350px; /* уменьшил на 135px для компенсации смещения из-за рекламы на бесплатном хостинге*/
+    left: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    padding: 0px;
+}
+
+.header p{
+    margin: 0px 5px 0px;
+}
+
+.header .expirience{
+    width: 400px;
+    position: absolute;
+    left: 40px;
+    bottom: 290px; /* уменьшил на 135px для компенсации смещения из-за рекламы на бесплатном хостинге*/
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+}
+
+.header .metodiki{
+    width: 235px;
+    position: absolute;
+    right: 45px;
+    bottom: 325px; /* уменьшил на 135px для компенсации смещения из-за рекламы на бесплатном хостинге*/
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+}
+
+.border {
+    width: 100%;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    margin: 0px;
+    margin-top: -40px;
+    margin-bottom: -40px;  
+    font-weight: normal;
+}
+
+.borderLeft {
+    background: linear-gradient(#036D32, #40A067);
+    border-radius: 30px;
+    font-size: 24px;
+    padding-top: 10px;
+    z-index: 1;
+}
+
+.borderCenter {
+    background: white;
+    border-radius: 30px;
+    margin: 0px -10px 0px;
+    font-size: 42px;
+    z-index: 2;
+    padding: 0px;
+}
+
+.borderRight {
+    background: linear-gradient(#A32F2F, #DC3C3C);
+    border-radius: 30px;
+    font-size: 24px;
+    padding-top: 10px;
+    z-index: 1;
+}
+
+.second {
+    width: 100%;
+    height: 105vh;
+    background: url("../img/secondTab.png");
+    margin: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.secondMenu {
+    display: block;
+}
+
+.secondMenur{
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 30px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.second .leksikaGram {
+    width: 730px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    margin: 20px 5px 20px;
+    padding: 10px;
+    z-index: 1;
+    display: none;
+}
+
+.second .tehnology{
+    width: 730px;
+    height: 370px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    margin: 20px 5px 20px;
+    padding: 10px;
+    z-index: 1;
+    display: none;
+}
+
+.second .practice{
+    width: 730px;
+    height: 370px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    margin: 20px 5px 20px;
+    padding: 10px;
+    z-index: 1;
+    display: none;
+}
+
+.third{
+    width: 100%;
+    height: 48vh;
+    background: url("../img/third.jpg") no-repeat;
+    background-size: 100% auto;
+    margin: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.third .thirdH{
+    /*width: 650px;*/
+    /*height: 320px;*/
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 30px;
+    margin: 40px 10px 40px;
+    padding: 0px;
+    /*margin-left: 40px;
+    margin-bottom: 0px;*/
+    
+}
+
+.thirdH h3{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.thirdDialog {
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 30px;
+    margin: -40px 20px 10px;
+    padding: 0px;
+    align-items: center;
+}
+
+.third p{
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+.fourth{
+    width: 100%;
+    height: 125vh;
+    background: url("../img/fourth.JPG") no-repeat;
+    background-size: 100% auto;
+    margin: 0px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.fourth .fourthH{
+    background: rgba(255, 255, 255, 0.55) center;
+    border-radius: 30px;
+    margin: 30px 60px -30px;
+}
+
+h4{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.fourthMenu{
+    background: rgba(255, 255, 255, 0.65) center;
+    border-radius: 30px;
+    margin: 10px 10px 10px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.fourth .fourthDialog{
+    background: rgba(255, 255, 255, 0.85) center;
+    border-radius: 20px;
+    margin: -20px 5px 10px;
+    padding: 5px;
+    font-size: 21px;
+    font-weight: normal;
+    display: none;
+}
+
+.fifth{
+    width: 100%;
+    height: 125vh;
+    background: url("../img/fifthTab.png") no-repeat;
+    background-size: 100% auto;
+    margin: 0px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.fifthRectangle{
+    background: rgba(255, 255, 255, 0.65) center;
+    border-radius: 30px;
+    margin: 40px 5px 40px;
+    padding: 5px;
+    padding-top: 0px;
+}
+
+h5{
+    font-size: 34px;
+    font-weight: 600; 
+}
+
+.fifthRectangle p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sixth{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/sixTab.png") no-repeat;
+    background-size: cover;
+    margin: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth .ProgramMonth{
+    background: rgba(255, 255, 255, 0.7) center;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 15px 40px 15px;
+    font-size: 44px;
+    font-weight: normal;
+}
+
+.sixth .sixDialog{
+    display: none;
+    background: rgba(255, 255, 255, 0.85) /*center*/;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 0px;
+    margin-top: -200px;
+    z-index: 2;
+}
+
+.sixDialog h1{
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.sixDialog h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.sixDialog p{
+    font-size: 22px;
+    font-weight: normal;
+}
+
+#sixDialog1{
+    margin-top: -305px;
+    /*display: block;*/
+}
+
+
+#sixDialog2{
+    margin-top: -305px;
+    /*display: block;*/
+}
+
+#sixDialog3{
+   /* display: block;*/
+}
+
+.seventh{
+    width: 100%;
+    height: 125vh;
+    background: url("../img/seventhTab.png") no-repeat;
+    background-size: cover;
+    margin: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seventhMenu {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    margin: 20px 50px 20px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.seventhH {
+    background: rgba(255, 255, 255, 0.8) /*center*/;
+    border-radius: 30px;
+    margin: 15px;
+    margin-top:50px;
+    padding: 0px;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.seventhVar{
+    width: 700px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 30px;
+    margin: 10px;
+    margin-top: -130px;
+    padding: 0px;
+    padding-bottom: 10px;
+    z-index: 3;
+}
+
+
+.seventhVar h1{
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.price p1{
+    font-size: 24px;
+    font-weight: 600;
+    color: red;
+}
+
+.price p2{
+    font-size: 22px;
+    font-weight: normal;
+    color: rgba(84, 81, 81, 0.8);
+    text-decoration: line-through;
+}
+
+.seventhVar p{
+    font-size: 22px;
+    font-weight: normal; 
+}
+
+.buttonVarBuy{
+    background: linear-gradient(#DC3C3C, #A32F2F);
+    border-radius: 15px;
+    font-size: 22px;
+    font-weight: normal;
+    color: black;
+    margin: 10px 20px 10px;
+    padding: 10px;
+
+}
+
+.commentary p{
+    font-size: 12px;
+    font-weight: normal;
+    color: #3D3B3B;
+}
+
+
+.FAQ {
+    width: 100%;
+    height: 180vh;
+    background: url("../img/faqTab.png") no-repeat;
+    background-size: cover;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.faqH {
+    background: rgba(255, 255, 255, 0.7) center;
+    border-radius: 30px;
+    margin: 50px 50px 30px;
+    padding: 10px;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.question {
+    background: rgba(255, 255, 255, 0.7) center;
+    border-radius: 30px;
+    margin: 15px 20px 15px;
+    padding: 10px;
+    font-size: 26px;
+    font-weight: normal;
+
+}
+
+.faqDialog {
+    background: rgba(255, 255, 255, 0.9) center;
+    border-radius: 20px;
+    margin: -30px 0px 10px;
+    padding: 0px 0px 0px;
+    z-index: 3;
+    display:none;
+}
+
+.faqDialog h8 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.faqDialog p {
+    font-size: 21px;
+    font-weight: normal;
+}
+
+
+.footer {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/footerTab.png") no-repeat;
+    background-size: cover;
+    margin: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerH {
+    background: rgba(255, 255, 255, 0.55) center;
+    border-radius: 45px;
+    margin: 0px 40px 30px;
+    padding: 5px;
+    font-size: 40px;
+}
+
+.footerH2 {
+    background: rgba(255, 255, 255, 0.55) center;
+    border-radius: 45px;
+    margin: 120px 70px 20px;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.footerH2 h{
+    font-size: 40px;
+    
+}
+
+.footerH2 p{
+    font-size: 26px;
+}
+
+.footer .button2 {
+    width: 460px;
+    background: #D84F24;
+    border: 5px;
+    border-color: #2931DD;
+    border-style: solid;
+    border-radius: 30px;
+    font-size: 42px;
+    font-weight: 700;
+    color: black;
+    /*margin: 10px 160px 10px;*/
+    padding: 0px;
+}
+
+.message {
+    width: 300px;
+    height: 150px;
+    border-radius: 4px;
+    background: url("../img/message-bg.jpg") content-box;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+     margin: auto;
+    display: none;
+     opacity: 0;
+     z-index: 38;
+    text-align: center;
+    font-size: 24px;
+    color:white;
+}
+
+#message #myModal__close {
+    width: 21px; height: 21px;
+    position: absolute;
+    font-size: 29px;
+    top: 1px; right: 11px;
+    cursor: pointer;
+    display: block;
+}
+
+#myOverlay {
+    z-index: 37;
+    position: fixed;
+    background: rgba(0,0,0,.7);
+    width: 100%; height: 100%;
+    top: 0; left: 0;
+    cursor: pointer;
+    display: none;
+}
+
+#message2 #myModal__close {
+    width: 21px; height: 21px;
+    position: absolute;
+    font-size: 29px;
+    top: 1px; right: 11px;
+    cursor: pointer;
+    display: block;
+}
+
+}
