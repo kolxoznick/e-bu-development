@@ -1,0 +1,306 @@
+@media (max-width: 460px) {
+    body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header {
+        width: 100%;
+        height: 230px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header .logo{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .logo img{
+        width: 136px;
+        height: 122px;
+    }
+
+    .headerTxt {
+        display: flex;
+        flex-direction: column;
+        margin-left: 35px;
+    }
+    
+    .seoTxt p{
+        font-size: 12px;
+        color: #1A1861;
+        margin-left: 20px;
+    }
+    
+    .header .name {
+        text-align: center;
+        color: black;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .header .name h1 {
+        font-family: 'Wendy One';
+        font-size: 58px;
+        padding-bottom: -30px;
+    }
+    .header .name p {
+        font-size: 26px;
+        margin-top: 0px;
+    }
+    
+    .header .contacts {
+        display: flex;
+        flex-direction: column;
+        color: #082266;
+        align-items: top;
+        text-align: center;
+        margin: -40px auto 0px;
+    }
+    
+    .contacts .contact{
+        display: flex;
+        flex-direction: row;
+        margin: -5px auto -5px;
+    }
+    
+    .contacts .contact img{
+        width: 15px;
+        height: 15px;
+        margin-top: 15px;
+    }
+    .contacts .contact p{
+        font-family: 'Roboto';
+        font-size: 12px;
+        color: #082266;
+        margin: 15px 0px auto 10px;
+    }
+    
+    .header .contacts .socials{
+        margin: 0px auto 0px;
+    }
+
+    .header .contacts .socials img{
+        width: 15px;
+        height: 15px;
+        margin-top: 15px;
+    }
+
+    .menu {
+        width: 100%;
+        height: 50px;
+        position: relative;
+        display: inline-block;
+        border: none;
+        margin: 40px auto 10px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .burgerMenu {
+        margin: auto;
+        height: 50px;
+        background: linear-gradient(rgba(59, 63, 161, 1), rgba(29, 30, 40, 1));
+        display: block;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-size: 32px;
+        border: none;
+    }
+
+    .contentMenu {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        align-items: center;
+    }
+    
+    .contentMenu h3{
+        font-size: 30px;
+        color:black;
+        margin-bottom: 10px;
+    }
+    
+    .contentMenu a{
+        color: gray;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-size: 28px;
+    }
+
+    .contentMenu a:hover {
+        background-color: #ddd;
+    }
+    
+    .menu:hover .contentMenu {
+        display: block;
+    }
+
+       
+    .menu .contentMenu .lang {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        color: grey;
+        font-size: 28px;
+        margin-left: 120px;
+    }
+
+    .lang a {
+        margin-left: 0px;
+    }    
+
+    #active {
+        color: black;
+    }
+    
+    
+    .service{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+        padding: 10px;
+    }
+
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about h2 {
+        text-decoration: none;
+        color: black;
+        font-size: 28px;
+    }
+    
+    .about img{
+        width: 290px;
+        height: 270px;
+    }
+    
+    .card-body {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .portfolio {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #E7EFF5;
+        margin-bottom: 30px;
+    }
+    
+    .portfolio h4{
+        font-size: 40px;
+        font-weight: 600;
+        margin: 0px 0px 30px;
+    }
+
+    .portfolioImg{
+        height: 900px;
+        background: url("../img/linguaDemoMob.png") no-repeat center;
+        margin: 2px;
+    }
+    
+    .portfolio a{
+        font-size: 36px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+
+    .footer {
+        width: 100%;
+        height: 350px;
+        background: linear-gradient(rgba(59, 63, 161, 1), rgba(29, 30, 40, 1));
+        color: white;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 0px;
+    }
+
+    .footer .logo {
+        display: none;
+    }
+    
+    .footer .name {
+        color: white;
+        margin: 10px auto 10px;
+    }
+
+    .footer .name h1{
+        font-family: 'Wendy One';
+        font-size: 48px;
+        margin-bottom: 0px;
+    }
+    .footer .name p{
+        font-family: 'Wendy One';
+        font-size: 30px;
+        margin-top: -20px;
+    }
+    
+    .footer .contact{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        margin: 0px auto 0px;
+    }
+    
+    .footer .contact img{
+        width: 20px;
+        height: 20px;
+        fill: white;
+        margin-right: 5px;
+        margin-top: 7px;
+    }
+    
+    .footer .contact p{
+        font-size: 20px;
+    }
+    
+    .footer .socials{
+        margin: 20px auto 5px;
+    }
+    
+    .socials img{
+        width: 25px;
+        height: 25px;
+        fill: white;
+        margin-bottom: 0px;
+    }
+    
+    .socials p{
+        margin-top: 0px;
+        color: #DADADA;
+    }
+}
